@@ -1,0 +1,2 @@
+cd /workspaces/pongoOS
+/usr/bin/ld64 -static -arch arm64 -iphoneos_version_min 12.0.0 -o build/checkra1n-kpf-pongo -fatal_warnings -dead_strip -Z -kext /tmp/main-9adb0a.o /tmp/shellcode-dd4db3.o
